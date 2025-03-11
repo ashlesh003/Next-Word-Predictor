@@ -15,7 +15,7 @@ The architecture of the model is built using the **Sequential** model in Keras a
 2. **LSTM Layer**: Captures temporal dependencies in word sequences using Long Short-Term Memory (LSTM) units. 🧠
 3. **Dense Layer**: The output layer with a **softmax** activation function for multi-class classification. 🎯
 
-### 🛠️ Model Compilation
+## 🛠️ Model Compilation
 - **Loss Function**: Categorical Cross-Entropy (for multi-class classification). ❌
 - **Optimizer**: Adam optimizer for efficient learning. ⚙️
 - **Metrics**: Accuracy for model evaluation. ✅
